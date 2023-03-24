@@ -3,6 +3,7 @@ package br.com.etecia.myapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class SplashActivity extends AppCompatActivity {
@@ -17,6 +18,12 @@ public class SplashActivity extends AppCompatActivity {
         btnAbrirLogin = findViewById(R.id.btnAbrirLogin);
 
         // Criar a ação de clique do botão
+        btnAbrirLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
     }
 }
